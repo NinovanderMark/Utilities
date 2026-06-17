@@ -12,7 +12,7 @@ namespace Recoder.CLI
 
             if (args.Length < 2)
             {
-                Console.WriteLine("Program requires at least 2 arguments, whether to (e)ncode or (decode) and the string to en-/decode");
+                Console.WriteLine("Program requires at least 2 arguments, whether to (e)ncode or (d)ecode and the string to en-/decode");
                 return (int) ReturnCodes.InvalidArguments;
             }
 
